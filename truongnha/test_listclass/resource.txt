@@ -67,6 +67,9 @@ Move up Student location	[Arguments]	${idstudent}
 
 Move down Student location	[Arguments]	${idstudent}
 	Press Key	xpath=//ul[@id="sortableList"]/li[@id="${idstudent}"]	\\40
+	
+Confirm choice		[Arguments]	${idstudent}
+	Press Key	xpath=//ul[@id="sortableList"]/li[@id="${idstudent}"]	\\13
 
 Save sort
 	Click Button	save
