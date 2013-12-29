@@ -36,6 +36,7 @@ Sap xep voi keo tha xuong
 	Select Student	27956
 	Move down Student location	27956
 	Move down Student location	27956
+	Confirm choice		27956
 	Save sort
 	Display Sort page
 	Cancel sort
@@ -45,5 +46,17 @@ Sap xep voi keo tha len
 	Click Sap xep
 	Select Student	27956
 	Move up Student location	27956
+	Confirm choice		27956
 	Save sort
+	Display Sort page
+	Cancel sort
+	
+Sap xep bang cach trao doi vi tri 2 hoc sinh ngau nhien
+	Click Quan ly danh sach lop
+	Click Sap xep
+	Select Student	28185
+	Select Student	27856
+	Save sort
+	Display Sort page
+	
 	Display Sort page
