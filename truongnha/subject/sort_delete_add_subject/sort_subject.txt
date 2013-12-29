@@ -67,7 +67,7 @@ Invalid Add Subject
 Delete Subject
 	Go to Class page
 	Click Mon hoc
-	Delete A Subject	20507
+	Delete A Subject	20519
 	Confirm Action
 	
 
