@@ -1,0 +1,84 @@
+﻿*** Settings ***
+Documentation	A test suite with a single test for Sort Subject . This test has a workflow that is created using keywords from resource file
+
+Resource		resource.txt
+
+*** Test Cases ***
+
+Login
+	Open Browser to Login Page
+	Input Username	atpa
+	Input Password	praptpa$842
+	Submit Credentials
+	Go to WelcomePage
+	Display WelcomPage
+	
+Sort Subject As Click
+	Go to Subject page
+	Submit Sort
+	Click Sort_up	20507
+	Click Sort_down	20507
+	Click Sort_down	20507
+	Save Save_sort
+	Submit Sort
+	Cancel_sort
+
+Sort Subject Move Up or Down
+	Go to Subject page
+	Submit Sort
+	Select Subject To Sort	20507
+	Move Down Subject location	20507
+	Move Up Subject location	20507
+	Move Up Subject location	20507
+	Save Save_sort
+	Submit Sort
+
+Add Valid Subject
+	Go to Subject page
+	Submit Sort
+	Display Advance
+	Insert Subject	Tự chọn
+	Select TypeSubject	Tự chọn
+	Insert NumberLesson	3
+	Insert Heso	1.0
+	Insert Teacher	P
+	Move down Teacher location	
+	Select Teacher For Subject
+	Select Primary	1
+	Select Comment	
+	Submit Add Subject
+	Check NoExits Notify
+	
+Invalid Add Subject
+	Go to Subject page
+	Submit Sort
+	Display Advance
+	Insert Subject	Tự chọn
+	Select TypeSubject	Tự chọn
+	Insert Heso	3.0
+	Insert Teacher	P
+	Move down Teacher location	
+	Select Teacher For Subject
+	Select Primary	3
+	Select Comment	
+	Submit Add Subject
+	Check Exits Notify
+	
+Delete Subject
+	Go to Class page
+	Click Mon hoc
+	Delete A Subject	20507
+	Confirm Action
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
