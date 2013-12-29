@@ -55,7 +55,7 @@ Invalid Add Subject
 	Display Advance
 	Insert Subject	Tự chọn
 	Select TypeSubject	Tự chọn
-	Insert Heso	3.0
+	Insert Heso	4.0
 	Insert Teacher	P
 	Move down Teacher location	
 	Select Teacher For Subject
