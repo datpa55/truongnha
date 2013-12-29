@@ -51,7 +51,7 @@ Sap xep voi keo tha len
 	Display Sort page
 	Cancel sort
 	
-Sap xep bang cach trao doi vi tri 2 hoc sinh ngau nhien
+Sap xep bang cach trao doi vi tri 2 hoc sinh
 	Click Quan ly danh sach lop
 	Click Sap xep
 	Select Student	28185
