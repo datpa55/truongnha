@@ -296,4 +296,332 @@
 <status status="PASS" endtime="20131229 20:56:22.854" starttime="20131229 20:56:20.734"></status>
 </kw>
 <kw type="kw" name="resource.Move Down Subject location">
-<doc></doc
+<doc></doc>
+<arguments>
+<arg>20507</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Press Key">
+<doc>Simulates user pressing key on element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id='${subjectid}']</arg>
+<arg>//40</arg>
+</arguments>
+<status status="PASS" endtime="20131229 20:56:24.930" starttime="20131229 20:56:22.856"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:24.931" starttime="20131229 20:56:22.855"></status>
+</kw>
+<kw type="kw" name="resource.Move Up Subject location">
+<doc></doc>
+<arguments>
+<arg>20507</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Press Key">
+<doc>Simulates user pressing key on element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id='${subjectid}']</arg>
+<arg>//38</arg>
+</arguments>
+<status status="PASS" endtime="20131229 20:56:27.014" starttime="20131229 20:56:24.933"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:27.014" starttime="20131229 20:56:24.932"></status>
+</kw>
+<kw type="kw" name="resource.Move Up Subject location">
+<doc></doc>
+<arguments>
+<arg>20507</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Press Key">
+<doc>Simulates user pressing key on element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id='${subjectid}']</arg>
+<arg>//38</arg>
+</arguments>
+<status status="PASS" endtime="20131229 20:56:29.090" starttime="20131229 20:56:27.016"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:29.090" starttime="20131229 20:56:27.015"></status>
+</kw>
+<kw type="kw" name="resource.Save Save_sort">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>sort</arg>
+</arguments>
+<msg timestamp="20131229 20:56:29.092" level="INFO">Clicking button 'sort'.</msg>
+<status status="PASS" endtime="20131229 20:56:32.244" starttime="20131229 20:56:29.091"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:32.247" starttime="20131229 20:56:29.091"></status>
+</kw>
+<kw type="kw" name="resource.Submit Sort">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>sort</arg>
+</arguments>
+<msg timestamp="20131229 20:56:32.249" level="INFO">Clicking button 'sort'.</msg>
+<status status="PASS" endtime="20131229 20:56:35.362" starttime="20131229 20:56:32.248"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:35.362" starttime="20131229 20:56:32.248"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20131229 20:56:35.365" critical="yes" starttime="20131229 20:56:14.617"></status>
+</test>
+<test id="s1-t4" name="Add Valid Subject">
+<kw type="kw" name="resource.Go to Subject page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${SUBJECT}</arg>
+</arguments>
+<msg timestamp="20131229 20:56:35.370" level="INFO">Opening url 'http://truongnha.com/school/subjectPerClass/1453'</msg>
+<status status="PASS" endtime="20131229 20:56:39.831" starttime="20131229 20:56:35.369"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:39.832" starttime="20131229 20:56:35.368"></status>
+</kw>
+<kw type="kw" name="resource.Submit Sort">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>sort</arg>
+</arguments>
+<msg timestamp="20131229 20:56:39.835" level="INFO">Clicking button 'sort'.</msg>
+<status status="PASS" endtime="20131229 20:56:42.965" starttime="20131229 20:56:39.835"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:42.965" starttime="20131229 20:56:39.833"></status>
+</kw>
+<kw type="kw" name="resource.Display Advance">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=advanced</arg>
+</arguments>
+<msg timestamp="20131229 20:56:42.967" level="INFO">Clicking element 'id=advanced'.</msg>
+<status status="PASS" endtime="20131229 20:56:45.268" starttime="20131229 20:56:42.966"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:45.268" starttime="20131229 20:56:42.966"></status>
+</kw>
+<kw type="kw" name="resource.Insert Subject">
+<doc></doc>
+<arguments>
+<arg>Tự chọn</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id='subject_form']/td/p/input[@id='id_name']</arg>
+<arg>${subject_name}</arg>
+</arguments>
+<msg timestamp="20131229 20:56:45.271" level="INFO">Typing text 'Tự chọn' into text field 'xpath=//tr[@id='subject_form']/td/p/input[@id='id_name']'</msg>
+<status status="PASS" endtime="20131229 20:56:48.385" starttime="20131229 20:56:45.270"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:56:48.385" starttime="20131229 20:56:45.269"></status>
+</kw>
+<kw type="kw" name="resource.Select TypeSubject">
+<doc></doc>
+<arguments>
+<arg>Tự chọn</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Select From List">
+<doc>Selects `*items` from list identified by `locator`</doc>
+<arguments>
+<arg>xpath=//select[@id="id_type"]</arg>
+<arg>${name_type}</arg>
+</arguments>
+<msg timestamp="20131229 20:56:48.388" level="INFO">Selecting option(s) 'Tự chọn' from list 'xpath=//select[@id="id_type"]'.</msg>
+<kw type="kw" name="Selenium2Library.Capture Page Screenshot">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20131229 20:56:56.756" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20131229 20:56:56.756" starttime="20131229 20:56:55.512"></status>
+</kw>
+<msg timestamp="20131229 20:56:56.845" level="FAIL">ValueError: Option 'Tự chọn' not in list 'xpath=//select[@id="id_type"]'.</msg>
+<status status="FAIL" endtime="20131229 20:56:56.845" starttime="20131229 20:56:48.388"></status>
+</kw>
+<status status="FAIL" endtime="20131229 20:56:56.846" starttime="20131229 20:56:48.387"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20131229 20:56:56.847" critical="yes" starttime="20131229 20:56:35.366">ValueError: Option 'Tự chọn' not in list 'xpath=//select[@id="id_type"]'.</status>
+</test>
+<test id="s1-t5" name="Invalid Add Subject">
+<kw type="kw" name="resource.Go to Subject page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${SUBJECT}</arg>
+</arguments>
+<msg timestamp="20131229 20:56:56.857" level="INFO">Opening url 'http://truongnha.com/school/subjectPerClass/1453'</msg>
+<status status="PASS" endtime="20131229 20:57:01.084" starttime="20131229 20:56:56.856"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:01.084" starttime="20131229 20:56:56.854"></status>
+</kw>
+<kw type="kw" name="resource.Submit Sort">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>sort</arg>
+</arguments>
+<msg timestamp="20131229 20:57:01.087" level="INFO">Clicking button 'sort'.</msg>
+<status status="PASS" endtime="20131229 20:57:04.280" starttime="20131229 20:57:01.087"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:04.280" starttime="20131229 20:57:01.086"></status>
+</kw>
+<kw type="kw" name="resource.Display Advance">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=advanced</arg>
+</arguments>
+<msg timestamp="20131229 20:57:04.283" level="INFO">Clicking element 'id=advanced'.</msg>
+<status status="PASS" endtime="20131229 20:57:06.524" starttime="20131229 20:57:04.282"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:06.524" starttime="20131229 20:57:04.281"></status>
+</kw>
+<kw type="kw" name="resource.Insert Subject">
+<doc></doc>
+<arguments>
+<arg>Tự chọn</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id='subject_form']/td/p/input[@id='id_name']</arg>
+<arg>${subject_name}</arg>
+</arguments>
+<msg timestamp="20131229 20:57:06.527" level="INFO">Typing text 'Tự chọn' into text field 'xpath=//tr[@id='subject_form']/td/p/input[@id='id_name']'</msg>
+<status status="PASS" endtime="20131229 20:57:09.824" starttime="20131229 20:57:06.527"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:09.824" starttime="20131229 20:57:06.526"></status>
+</kw>
+<kw type="kw" name="resource.Select TypeSubject">
+<doc></doc>
+<arguments>
+<arg>Tự chọn</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Select From List">
+<doc>Selects `*items` from list identified by `locator`</doc>
+<arguments>
+<arg>xpath=//select[@id="id_type"]</arg>
+<arg>${name_type}</arg>
+</arguments>
+<msg timestamp="20131229 20:57:09.826" level="INFO">Selecting option(s) 'Tự chọn' from list 'xpath=//select[@id="id_type"]'.</msg>
+<kw type="kw" name="Selenium2Library.Capture Page Screenshot">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20131229 20:57:19.860" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20131229 20:57:19.860" starttime="20131229 20:57:16.963"></status>
+</kw>
+<msg timestamp="20131229 20:57:19.861" level="FAIL">ValueError: Option 'Tự chọn' not in list 'xpath=//select[@id="id_type"]'.</msg>
+<status status="FAIL" endtime="20131229 20:57:19.861" starttime="20131229 20:57:09.825"></status>
+</kw>
+<status status="FAIL" endtime="20131229 20:57:19.862" starttime="20131229 20:57:09.825"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20131229 20:57:19.864" critical="yes" starttime="20131229 20:56:56.850">ValueError: Option 'Tự chọn' not in list 'xpath=//select[@id="id_type"]'.</status>
+</test>
+<test id="s1-t6" name="Delete Subject">
+<kw type="kw" name="resource.Go to Class page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${CLASS URL}</arg>
+</arguments>
+<msg timestamp="20131229 20:57:19.872" level="INFO">Opening url 'http://truongnha.com/school/viewClassDetail/1453'</msg>
+<status status="PASS" endtime="20131229 20:57:24.276" starttime="20131229 20:57:19.871"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:24.276" starttime="20131229 20:57:19.870"></status>
+</kw>
+<kw type="kw" name="resource.Click Mon hoc">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>btn-monhoc</arg>
+</arguments>
+<msg timestamp="20131229 20:57:24.279" level="INFO">Clicking element 'btn-monhoc'.</msg>
+<status status="PASS" endtime="20131229 20:57:28.706" starttime="20131229 20:57:24.279"></status>
+</kw>
+<status status="PASS" endtime="20131229 20:57:28.706" starttime="20131229 20:57:24.278"></status>
+</kw>
+<kw type="kw" name="resource.Delete A Subject">
+<doc></doc>
+<arguments>
+<arg>20507</arg>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//tr[@id="${idsubject}"]/td/button[@class="btn no-text btn-small deletion"]</arg>
+</arguments>
+<msg timestamp="20131229 20:57:28.708" level="INFO">Clicking element 'xpath=//tr[@id="20507"]/td/button[@class="btn no-text btn-small deletion"]'.</msg>
+<kw type="kw" name="Selenium2Library.Capture Page Screenshot">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20131229 20:57:31.015" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20131229 20:57:31.015" starttime="20131229 20:57:29.721"></status>
+</kw>
+<msg timestamp="20131229 20:57:31.018" level="FAIL">ValueError: Element locator 'xpath=//tr[@id="20507"]/td/button[@class="btn no-text btn-small deletion"]' did not match any elements.</msg>
+<status status="FAIL" endtime="20131229 20:57:31.018" starttime="20131229 20:57:28.708"></status>
+</kw>
+<status status="FAIL" endtime="20131229 20:57:31.018" starttime="20131229 20:57:28.707"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20131229 20:57:31.019" critical="yes" starttime="20131229 20:57:19.868">ValueError: Element locator 'xpath=//tr[@id="20507"]/td/button[@class="btn no-text btn-small deletion"]' did not match any elements.</status>
+</test>
+<doc>A test suite with a single test for Sort Subject . This test has a workflow that is created using keywords from resource file</doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20131229 20:57:31.030" starttime="20131229 20:55:18.067"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="4" pass="2">Critical Tests</stat>
+<stat fail="4" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="4" pass="2" id="s1" name="Sort Subject">Sort Subject</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
