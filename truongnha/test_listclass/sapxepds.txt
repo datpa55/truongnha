@@ -58,5 +58,3 @@ Sap xep bang cach trao doi vi tri 2 hoc sinh ngau nhien
 	Select Student	27856
 	Save sort
 	Display Sort page
-	
-	Display Sort page
